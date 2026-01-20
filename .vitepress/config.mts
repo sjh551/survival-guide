@@ -23,6 +23,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    editLink: {
+      text: "在 GitHub 上编辑此页",
+      pattern: "https://github.com/CloudAI-Studio/survival-guide/edit/main/:path",
+    }
   }
 })
